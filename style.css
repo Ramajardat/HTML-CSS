@@ -46,7 +46,7 @@ scroll-behavior: smooth;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    margin-left: 100px;
+    margin-left: 10px;
   }
   .Home {
     float: left;
@@ -87,7 +87,61 @@ scroll-behavior: smooth;
     color: white;
   }
 
-
+  .title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #b0a9a4;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .conta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    /* font-size: 8.5vw; */
+    text-transform: uppercase;
+  }
 
 
  #sec img {
@@ -298,13 +352,11 @@ text-align: left;
   
   .background {
     display: flex;
-    min-height: 100vh;
-  }
+    min-height: 40vw;  }
   
   .container {
     flex: 0 1 700px;
     margin: auto;
-    padding: 10px;
   }
   
   .screen {
@@ -375,7 +427,7 @@ text-align: left;
   
   .medi {margin-top: 0;}
   .app-contact {
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 8px;
     color: #888;
     display: inline-block;
@@ -476,7 +528,7 @@ text-align: left;
 
 } */
 
-.fa {
+/* .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -500,7 +552,7 @@ text-align: left;
   .fa_custom {
     color: #0099CC;
    
-    }
+    } */
 
    
      
@@ -550,7 +602,7 @@ text-align: left;
       
 
       
-      
+/*       
       .footer-distributed {
         background-color: #292c2f;
         box-shadow: 0 1px 1px 0 rgba(149, 43, 43, 0.12);
@@ -568,7 +620,7 @@ text-align: left;
       }
       /* Footer links */
       
-      .footer-distributed p.footer-links {
+      /* .footer-distributed p.footer-links {
         font-size: 18px;
         font-weight: bold;
         color: #ffffff;
@@ -583,7 +635,7 @@ text-align: left;
         text-decoration: none;
         color: inherit;
         transition: ease .25s;
-      }
+      } */ */
       
       /* .footer-distributed .footer-links a:before {
         content: "·";
@@ -621,7 +673,48 @@ text-align: left;
       /* .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
       
       .footer-distributed p.footer-links a:hover{text-decoration:underline;} */
-      
+
+      .foo {
+        background-color: rgb(158, 39, 39);
+        
+      }
+      .copy {
+        margin-top: 6px;
+      margin-left: 20px;
+      }
+       .fa {  
+        padding: 20px;  
+      text-align: center;  
+        margin: 5px 2px;  
+        font-size: 30px;  
+        width: 50px;  
+      }  
+      /* .fa-facebook {  
+        background: #3B5998;  
+        color: white;  
+      }  
+      .fa-twitter {  
+        background: #55ACEE;  
+        color: white;  
+      }   */
+        
+      .linked {  
+        background: #007bb5;  
+        color: white; 
+        opacity: 0.9;  
+ 
+      }   
+
+       .github {  
+        background: #007bb5;  
+        color: white;  
+        opacity: 0.9;  
+
+      } 
+        
+      .fa:hover {  
+          opacity: 0.9;  
+      }   */
       /* Media Queries */
       
       @media (max-width: 600px) {
