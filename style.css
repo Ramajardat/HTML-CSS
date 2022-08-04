@@ -167,7 +167,7 @@ width: 100%;
     padding: 20px;
     color: black;
     background-color:#D3D3D3;
-    
+    justify-content: space-evenly;    
    
 }
 @media screen and (max-width: 767px) {

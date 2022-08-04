@@ -1,7 +1,10 @@
 # HTML-CSS!
-![wireframe portfolio](https://user-images.githubusercontent.com/109508834/182657371-48242b55-ddb9-4ec9-aad6-57e62e6ae0d9.jpg)
 
-![mock-up portfolio (2)](https://user-images.githubusercontent.com/109508834/182657968-18f14f14-ea78-40f5-8fdb-c9988aa99f20.jpg)
+[mockupportfolio](https://user-images.githubusercontent.com/109508834/181949245-dd249564-a764-4852-8d48-538f27b52ea8.jpg)
+![wireframeportfolio](https://user-images.githubusercontent.com/109508834/181949280-14af9325-0000-4c0c-acb4-4c666461a29a.jpg)
 
+# <<<<<<< HEAD
 
-https://ramajardat.github.io/HTML-CSS/index.html
+https://ramajardat.github.io/HTML-CSS/
+
+> > > > > > > 76519d9e942433d1c6cf4638fbc8ba573da730cd
