@@ -50,6 +50,7 @@ scroll-behavior: smooth;
   }
   .Home {
     float: left;
+    margin-top: 7px;
     
   }
 
@@ -87,12 +88,19 @@ scroll-behavior: smooth;
     color: white;
   }
 
+  @media screen and (max-width:670px) {
+    .button {display:block;
+    margin:0.4em auto;
+    height: 30px;
+    }
+    
+  }
   .title-word {
     animation: color-animation 4s linear infinite;
   }
   
   .title-word-1 {
-    --color-1: #b0a9a4;
+    --color-1: #efe7e2;
     --color-2: #3D8DAE;
     --color-3: #E4A9A8;
   }
@@ -100,7 +108,7 @@ scroll-behavior: smooth;
   .title-word-2 {
     --color-1: #DBAD4A;
     --color-2: #ACCFCB;
-    --color-3: #17494D;
+    --color-3: #6ab6bc;
   }
   
   .title-word-3 {
@@ -189,7 +197,7 @@ text-align: left;
 
 :root {
     --primary: #37a9e1;
-    --primary-gradient: linear-gradient(45deg, #153c7e 0%, #37a9e1 100%);
+        --primary-gradient: linear-gradient(45deg, #292c2f 0%, #d3d3d3 100%)
   }
   .section-header {
     text-align: center;
@@ -198,6 +206,7 @@ text-align: left;
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 16px;
+    color: white;
   }
   .section-header hr {
     border: 1px solid #fff;
@@ -339,7 +348,7 @@ text-align: left;
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .bo {
+  .bluescreen {
     background: linear-gradient(to right,  #008CBA 0%, #007bb5 100%);
     font-size: 12px;
   }
@@ -427,7 +436,7 @@ text-align: left;
   
   .medi {margin-top: 0;}
   .app-contact {
-    margin-top: 50px;
+    margin-top: 35px;
     font-size: 8px;
     color: #888;
     display: inline-block;
